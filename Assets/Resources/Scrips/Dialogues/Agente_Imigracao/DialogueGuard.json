@@ -1,0 +1,46 @@
+{
+    "npcName": "Agente da Imigração",
+    "dialogueTextOptions": [
+        {
+            "id": 1,
+            "text": "Bonsoir, madame",
+            "audioPath": "Scrips/Dialogues/Agente_Imigracao/Audios/1"
+        },
+        {
+            "id": 2,
+            "text": "Qual a finalidade da sua viagem?",
+            "audioPath": "Scrips/Dialogues/Agente_Imigracao/Audios/2"
+        },
+        {
+            "id": 3,
+            "text": "Onde a senhora vai ficar?",
+            "audioPath": "Scrips/Dialogues/Agente_Imigracao/Audios/3"
+        },
+        {
+            "id": 4,
+            "text": "A senhora já veio à França?",
+            "audioPath": "Scrips/Dialogues/Agente_Imigracao/Audios/4"
+        },
+        {
+            "id": 5,
+            "text": "Quanto tempo durará a sua estadia?",
+            "audioPath": "Scrips/Dialogues/Agente_Imigracao/Audios/5"
+        },
+        {
+            "id": 6,
+            "text": "Merci. Bienvenue!",
+            "audioPath": "Scrips/Dialogues/Agente_Imigracao/Audios/6"
+        }
+    ],
+    "interactedText": {
+        "id": 7,
+        "text": "Pode continuar!",
+        "audioPath": "Scrips/Dialogues/Agente_Imigracao/Audios/7"
+    },
+    "choices": [
+        { "choices": [ "Lazer", "Trabalho" ] },
+        { "choices": [ "Casa da amiga", "Dormitório universitário", "Hotel no centro" ] },
+        { "choices": [ "Oui", "Non" ] },
+        { "choices": [ "Três dias", "Um mês", "Dois anos" ] }
+    ]
+}
